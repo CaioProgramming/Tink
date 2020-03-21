@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "749410289371",
+    "firebase_url": "https://riddler-br.firebaseio.com",
+    "project_id": "riddler-br",
+    "storage_bucket": "riddler-br.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749410289371:android:e8e03a30ef82d9b9",
+        "android_client_info": {
+          "package_name": "com.inlustris.tink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749410289371-grkjue3jetj35ompmclvgmgbc9aidgu2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inlustris.tink",
+            "certificate_hash": "e52ea948ad8eb3370c325822e60b1550052192ac"
+          }
+        },
+        {
+          "client_id": "749410289371-jla0t422jcj3hkncamb6pisqibflfph4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo5U7r4j-vB6kyIccT3rJKtcySEiTEYpM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749410289371-jla0t422jcj3hkncamb6pisqibflfph4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

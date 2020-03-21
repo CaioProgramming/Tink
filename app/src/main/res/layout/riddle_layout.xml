@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+         android:animateLayoutChanges="true"
+        android:id="@+id/ridle"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:minHeight="300dp"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:textSize="26sp"
+            android:textColor="@android:color/white"
+            android:padding="10dp"
+             android:text="O que é oque é..."
+            android:id="@+id/riddle"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <Button
+        android:gravity="bottom"
+        android:id="@+id/seeanswer"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:drawableBottom="@drawable/ic_visibility_black_24dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:visibility="gone"
+        android:layout_gravity="center"
+         android:textStyle="italic"
+         android:textColor="@android:color/white"
+        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+        android:textSize="22sp"
+        android:padding="10dp"
+        android:id="@+id/answer"
+        android:textAlignment="center"
+        android:text="Resposta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
